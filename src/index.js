@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from "react-dom";
 import Top from './components/top/top';
+import './styles.css'
+// import {Top} from './components/top';
 
 const Index = () => {
     return (
-        <div>
-            <h1>
+        <div className="index">
+            <h1 className="my-name">
                 Joey Saha
             </h1>
             <Top />

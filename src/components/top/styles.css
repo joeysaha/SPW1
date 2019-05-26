@@ -1,0 +1,19 @@
+.top-section {
+    background-color: aqua;
+}
+
+header h1 {
+    font-size: 3em;
+    color: blue;
+}
+
+p {
+    color: brown;
+
+}
+
+.joke {
+    font-size: 4em;
+    color: white;
+    background-color: red;
+}

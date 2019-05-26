@@ -1,8 +1,9 @@
 import React from 'react';
+import './styles.css';
 
 export const Top = () => {
     return (
-        <div className = "top section">
+        <div className="top-section">
             <main>
                 <header>
                     <h1>
@@ -14,7 +15,7 @@ export const Top = () => {
                         I am a former mechanical engineer from the United States.  I graduated with a BSc in Mechanical Engineering and worked as mostly a design engineer while playing other engineering roles to suit my company as well.
                     </p>
                     <p>
-                        Currently, I live in Toronto, Canada in the North York region.  After coming here, I went to a coding bootcamp to hone my skills and fine tune them in order to blossom a passion of mine.  
+                        Currently, I live in Toronto, Canada in the North York region.  After coming here, I went to a coding bootcamp to hone my skills and fine tune them in order to blossom a passion of mine that has lain decades in wait.  
                     </p>
                     <p>
                         One thing I can confidently say is that I'm always learning something new, whether it's business practices, engineering disciplines, or coding languages.  It's nice to keep yourself fresh, I believe.  Staying on your toes is a must in a technical field, regardless of what specific type is being considered.
@@ -46,7 +47,7 @@ export const Top = () => {
                                         Inspection
                                     </li>
                                     <li>
-                                        Gages
+                                        Gauges
                                     </li>
                                     <li>
                                         Tooling
@@ -55,6 +56,31 @@ export const Top = () => {
                             </li>
                         </ul>
                     </p>
+                    <p>
+                        My coding skills extend to:
+                        <ul>
+                            <li>
+                                Ruby on Rails
+                            </li>
+                            <li>
+                                JavaScript
+                            </li>
+                            <li>
+                                React
+                            </li>
+                            <li>
+                                Java
+                            </li>
+                            <li>
+                                Python/Django
+                            </li>
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <div className="joke">
+                        NOTICE HOW I NEVER SAID CSS OR HTML? OR UX FOR THAT MATTER...
+                    </div>
                 </section>
             </main>
         </div>
