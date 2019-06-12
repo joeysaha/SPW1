@@ -6,11 +6,11 @@ export const Top = () => {
         <div className="top-section">
             <main>
                 <header>
-                    <h1>
+                    <h1 className="sideToSide">
                         About Me
                     </h1>
                 </header>
-                <section>
+                <section className="barrelRoll">
                     <p>
                         I am a former mechanical engineer from the United States.  I graduated with a BSc in Mechanical Engineering and worked as mostly a design engineer while playing other engineering roles to suit my company as well.
                     </p>
@@ -78,7 +78,7 @@ export const Top = () => {
                     </p>
                 </section>
                 <section>
-                    <div className="joke">
+                    <div className="joke shake">
                         NOTICE HOW I NEVER SAID CSS OR HTML? OR UX FOR THAT MATTER...
                     </div>
                 </section>
