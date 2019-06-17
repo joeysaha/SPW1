@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import Top from './components/top/top';
+import First from './components/first/first';
 import './styles.css';
 import './wickedcss.min.css';
 // import {Top} from './components/top';
@@ -14,22 +14,26 @@ const Index = () => {
             <h1 className="my-name spinner">
                 Joey Saha
             </h1>
-            {/* <button className="topButton" onClick={showContent()} >
-                Top
-            </button> */}
-            <div className="showTopStuff">
-                <Top />
+            <button className="firstButton" onClick={showContent}>
+                First
+            </button>
+            <div className="showFirstStuff">
+                <First />
             </div>
         </div>
     );
 };
 
-function showContent() {
-    var showDiv = document.getElementById("showTopStuff");
-    if (showDiv.style.display === "none") {
-        showDiv.style.display = "block";
+const showContent = () => {
+    let theDiv = document.querySelector('.showFirstStuff');
+    if (theDiv.style.display) {
+        if (theDiv.style.display === "none") {
+            theDiv.style.display = "block";
+        } else {
+            theDiv.style.display = "none";
+        }
     } else {
-        showDiv.style.display = "none";
+        theDiv.style.display = "block";
     }
 }
 

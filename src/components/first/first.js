@@ -1,16 +1,16 @@
 import React from 'react';
 import './styles.css';
 
-export const Top = () => {
+export const First = () => {
     return (
-        <div className="top-section">
+        <div className="firstSection">
             <main>
                 <header>
-                    <h1 className="sideToSide">
+                    <h1 className="sideToSide aboutMe">
                         About Me
                     </h1>
                 </header>
-                <section className="barrelRoll">
+                <section className="barrelRoll info">
                     <p>
                         I am a former mechanical engineer from the United States.  I graduated with a BSc in Mechanical Engineering and worked as mostly a design engineer while playing other engineering roles to suit my company as well.
                     </p>
@@ -87,4 +87,4 @@ export const Top = () => {
     )
 }
 
-export default Top;
+export default First;
