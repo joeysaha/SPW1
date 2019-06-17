@@ -22,60 +22,60 @@ export const First = () => {
                     </p>
                     <p>
                         My engineering skills extend to:
-                        <ul>
-                            <li>
-                                Design Engineering.  Here is where I spent most of my time and my titles and roles generally pertained to this facet.  Some of the skills I picked up here include:
-                                <ul>
-                                    <li>
-                                        Solidworks
-                                    </li>
-                                    <li>
-                                        AutoDesk Inventor
-                                    </li>
-                                    <li>
-                                        Catia
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                Quality Engineering.  I spent some time helping a company maintain their standards and devising solutions to combat irregularities or statistically significant variations to part dimensions that were functionally broken or insufficient.  Here, I had to pick up a variety of skills on the fly, such as:  
-                                <ul>
-                                    <li>
-                                        RCA - Root Cause Analysis
-                                    </li>
-                                    <li>
-                                        Inspection
-                                    </li>
-                                    <li>
-                                        Gauges
-                                    </li>
-                                    <li>
-                                        Tooling
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
                     </p>
+                    <ul>
+                        <li>
+                            Design Engineering.  Here is where I spent most of my time and my titles and roles generally pertained to this facet.  Some of the skills I picked up here include:
+                            <ul>
+                                <li>
+                                    Solidworks
+                                </li>
+                                <li>
+                                    AutoDesk Inventor
+                                </li>
+                                <li>
+                                    Catia
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Quality Engineering.  I spent some time helping a company maintain their standards and devising solutions to combat irregularities or statistically significant variations to part dimensions that were functionally broken or insufficient.  Here, I had to pick up a variety of skills on the fly, such as:  
+                            <ul>
+                                <li>
+                                    RCA - Root Cause Analysis
+                                </li>
+                                <li>
+                                    Inspection
+                                </li>
+                                <li>
+                                    Gauges
+                                </li>
+                                <li>
+                                    Tooling
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                     <p>
                         My coding skills extend to:
-                        <ul>
-                            <li>
-                                Ruby on Rails
-                            </li>
-                            <li>
-                                JavaScript
-                            </li>
-                            <li>
-                                React
-                            </li>
-                            <li>
-                                Java
-                            </li>
-                            <li>
-                                Python/Django
-                            </li>
-                        </ul>
                     </p>
+                    <ul>
+                        <li>
+                            Ruby on Rails
+                        </li>
+                        <li>
+                            JavaScript
+                        </li>
+                        <li>
+                            React
+                        </li>
+                        <li>
+                            Java
+                        </li>
+                        <li>
+                            Python/Django
+                        </li>
+                    </ul>
                 </section>
                 <section>
                     <div className="joke shake">

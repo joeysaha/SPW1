@@ -1,4 +1,4 @@
-.my-name {
+.myName {
     font-size: 5em;
     color: red;
     background-color: black;
@@ -17,4 +17,8 @@
 
 .showTopStuff {
     display: none;
+}
+
+.index {
+    background-color: rgb(200, 200, 200, .6);
 }
