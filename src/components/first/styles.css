@@ -1,4 +1,4 @@
-.firstSection {
+.first-section {
     background-color: aqua;
 }
 
@@ -11,9 +11,10 @@ h1 {
 p {
     color: brown;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1%;
 }
 
-.joke {
+#joke {
     font-size: 4em;
     color: white;
     background-color: red;

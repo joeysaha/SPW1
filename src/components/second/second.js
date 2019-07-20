@@ -3,18 +3,18 @@ import './styles.css';
 
 const Second = () => {
     return (  
-        <div className="secondSection">
+        <div className="second-section fadeIn">
             <h3>
                 Here's a picture of a bear!
             </h3>
-            <section className="bearPic">
-                <img src={randNum()} alt="Sorry, the image you have requested cannot be found because I goofed."></img>
+            <section className="bear-pic wiggle">
+                <img src={randBear()} alt="Sorry, the image you have requested cannot be found because I goofed."></img>
             </section>
         </div>
     );
 }
 
-const randNum = () => {
+const randBear = () => {
     return `https://placebear.com/${Math.round(Math.random()*1000)}/${Math.round(Math.random()*1000)}`;
 }
 

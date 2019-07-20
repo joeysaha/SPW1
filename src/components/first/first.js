@@ -1,12 +1,22 @@
 import React from 'react';
 import './styles.css';
 
+/**
+ * Try to do something like:
+ *
+ const content = ["Hello, my name is Joey...", "I'm cool."]
+ * ...
+ * return (
+ *  {content.map(str => <p>${str}</p>)}
+ * )
+ */
+
 export const First = () => {
     return (
-        <div className="firstSection">
+        <div className="first-section">
             <main>
                 <header>
-                    <h1 className="sideToSide aboutMe">
+                    <h1 className="sideToSide about-me">
                         About Me
                     </h1>
                 </header>
@@ -78,8 +88,10 @@ export const First = () => {
                     </ul>
                 </section>
                 <section>
-                    <div className="joke shake">
-                        NOTICE HOW I NEVER SAID CSS OR HTML? OR UX FOR THAT MATTER...
+                    <div className="floater" id="joke">
+                        <p>
+                            NOTICE HOW I NEVER SAID CSS OR HTML? OR UX FOR THAT MATTER...
+                        </p>
                     </div>
                 </section>
             </main>
