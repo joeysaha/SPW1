@@ -9,7 +9,7 @@
 
 /* Images should be hidden by default */
 .mySlides {
-    display: none;
+    display: block;
 }
 
 /* Next and previous buttons styling */
