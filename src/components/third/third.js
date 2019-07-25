@@ -1,15 +1,6 @@
 import React from 'react';
 import './styles.css';
 
- const randKitten = (i) => {
-    if(!i) {
-        let i = 300;
-    }
-    let secondNum = Math.round(i * (Math.random()/4 + .875));
-    return `https://placekitten.com/${i}/${secondNum}`;
-}
-
-
 class Third extends React.Component {
     constructor(props) {
         super(props);
@@ -21,14 +12,6 @@ class Third extends React.Component {
 
     updateIndex(i) {
         this.setState({ currentIndex: i });
-    }
-
-    generateButtons(num) {
-        const buttons = [];
-        for (let i = 0; i < num; i++) {
-            buttons.push(<span className="dot" onClick={()=>this.updateIndex(i)}></span>)
-        }
-        return buttons;
     }
 
     changeIndex(indexMod) {
@@ -59,12 +42,17 @@ class Third extends React.Component {
                     <a className="prev" onClick={()=>this.changeIndex(-1)}>&#10094;</a>
                     <a className="next" onClick={()=>this.changeIndex(1)}>&#10095;</a>
                 </div>
-                <div className="dotContainer">
-                    {this.generateButtons()}
-                </div>
             </React.Fragment>
         )
     }
+}
+
+const randKitten = (i) => {
+    if (!i) {
+        let i = 300;
+    }
+    let secondNum = Math.round(i * (Math.random() / 4 + .875));
+    return `https://placekitten.com/${i}/${secondNum}`;
 }
 
 export default Third;
